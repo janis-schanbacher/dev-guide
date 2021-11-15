@@ -1,6 +1,6 @@
 # Introduction to Scrum
 
-## Scrun Process
+## Scrum Process
 - Owner creates Product Backlog
 - Team defines wich backlog items are done in the sprint
 - tema and stakeholders inspect results and adjust for the next sprint
@@ -19,18 +19,17 @@
   - more difficult if people involved are not empowered or self-managing
 
 ## Scrum Values
-Five values Scrum depends:Commitment, Focus, Openness, Respect, Courage. Team members learn and explore these values as they are working with Scrum events and artifacts.
+Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Team members learn and explore these values as they are working with Scrum events and artifacts.
 - Commitment: Team commits to achieving its goals and supporting each other
 - Focus: Primary focus on best possible progress on goals
 - Openness: Team and stakeholders open about the work and the challenges
 - Respect: Team members respect each other to be capable, independent
 - Courage: members have courage to do the right thing
-- 
+  
 ## Scrum Theory and directions
 - Focus on Empiricism and lean thinking
   - Empiricism: assert that knowledge coms from experiance, thus make desicions based on what is observed
   - Lean thinking: Focus on essentials
-
 
 ## Scrum Team
 - no sub-teams or hierarchies. Cohesive unit of professionals focused on one objective at a time, the Product Goal

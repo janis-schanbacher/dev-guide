@@ -1,0 +1,33 @@
+#!/bin/sh
+
+GIT_DIR=$PWD
+# Path on Server where tree of development branch shall be deployed
+STAGING_TREE=/mnt/c/Users/Janis\ Schanbacher/projects/repos/co2tool.git/staging/
+# Path on Server where tree of master branch shall be deployed
+PRODUCTION_TREE=/mnt/c/Users/Janis\ Schanbacher/projects/repos/co2tool.git/production/
+GIT_WORK_TREE=
+
+while read oldrev newrev refname
+do
+  	GIT_BRANCH=$(git rev-parse --symbolic --abbrev-ref $refname)
+    if test "$GIT_BRANCH" = "master" ; then
+        cd "$PRODUCTION_TREE" || EXIT
+        GIT_WORK_TREE=$PWD
+    fi
+	if test "$GIT_BRANCH" = "development" ; then
+            cd "$STAGING_TREE" || EXIT
+            GIT_WORK_TREE=$PWD
+    fi
+
+    echo "   /==============================="
+    echo "   | DEPLOYMENT COMPLETED"
+    echo "   | Target branch: $GIT_BRANCH"
+    echo "   | Target folder: $GIT_WORK_TREE"
+    # echo "   | Tag name     : release_$NOW"
+    echo "   \=============================="
+done
+
+if test "$GIT_WORK_TREE" != "" ; then
+        cd "$GIT_DIR"
+        git --work-tree="$GIT_WORK_TREE" checkout "$GIT_BRANCH" -f
+fi
