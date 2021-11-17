@@ -13,11 +13,19 @@ do
     if test "$GIT_BRANCH" = "master" ; then
         cd "$PRODUCTION_TREE" || EXIT
         GIT_WORK_TREE=$PWD
-    fi
-	if test "$GIT_BRANCH" = "development" ; then
+        # TODO: add python environments
+        # echo $stdin | /usr/bin/env python post-receive.py
+        pip3 install -r "/mnt/c/Users/Janis Schanbacher/projects/repos/co2tool.git/production/requirements.txt"
+
+    elif test "$GIT_BRANCH" = "development" ; then
             cd "$STAGING_TREE" || EXIT
             GIT_WORK_TREE=$PWD
+            pip3 install -r "/mnt/c/Users/Janis Schanbacher/projects/repos/co2tool.git/staging/requirements.txt"
+    else
+        echo "Not master or development branch. Skipping."
+        continue
     fi
+    echo "$oldrev $newrev $refname" | python3 "../hooks/post-receive.py"
 
     echo "   /==============================="
     echo "   | DEPLOYMENT COMPLETED"
