@@ -1,11 +1,13 @@
 # Introduction to Scrum
 
 ## Scrum Process
+
 - Owner creates Product Backlog
 - Team defines wich backlog items are done in the sprint
 - tema and stakeholders inspect results and adjust for the next sprint
 
 ## Scrum Pillars
+
 - Transparency
   - emergent process of work visible to those performing the work and those receiving the work
   - important decisions based on percived state of the 3 pillars/artifacts
@@ -19,6 +21,7 @@
   - more difficult if people involved are not empowered or self-managing
 
 ## Scrum Values
+
 Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Team members learn and explore these values as they are working with Scrum events and artifacts.
 - Commitment: Team commits to achieving its goals and supporting each other
 - Focus: Primary focus on best possible progress on goals
@@ -27,6 +30,7 @@ Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Tea
 - Courage: members have courage to do the right thing
   
 ## Scrum Theory and directions
+
 - Focus on Empiricism and lean thinking
   - Empiricism: assert that knowledge coms from experiance, thus make desicions based on what is observed
   - Lean thinking: Focus on essentials
@@ -45,6 +49,7 @@ Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Tea
   - research
   - development
   - anythin grequired
+
 ### Roles
 - Developers
   - Committed to creating any aspect of a usable Increment each Spring
@@ -166,6 +171,60 @@ Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Tea
   - Participate on Scrum Boarc Preparation
   - Cross-functional team coordination
 
+
+### Sprint Review
+- Inspect outcome of the Sprint and dtermine future adaptions
+- Scrum Team presents results of their work, as well as the progress toward the Product Goal, to key stakeholders 
+- Scrum Team and stakeholders review what was accomplished in the sprint and what has changed in their environment.
+  - Collaboration on what to do next based on this information. Consequently, the Product Backlog may be adjusted.
+    - Consequently its a working session and should not be limited to a presentation.
+
+### Sprint Retrospektive
+- Plan ways to increase quality and effectiveness
+- Team inspects last Sprint with regards to
+  - Individuals
+  - Interactions
+  - Processes
+  - Tools
+  - Definition of Done
+- Inspection of what went well, problems that occured, and how those problems were (or were not) solved, what was learned
+- Team identifies most helpful changes to improve effectiveness
+  - most impactful improvement are addressed as soon as possible, and might be added to Sprint Backlog
+- Concludes the Sprint
+- Brainstorm, Presentation and grouping, voting, planning actions
+- Coordinate approach: 
+  - 5 min: every team member writes Sticky notes in private (with name)
+    - About things that went well or bad, wishes, risks,... Can also include feelings.
+  - Every team member puts his positions his notes into a coordate system and explains them, as well as the position
+    - X-Axis: Time (past, present, future), Y-Axis: Good, neutral, bad
+    - Can be a Wall with imaginary Coordinates or a OneNote Document for remote work
+  - Upvote cards
+  - Talk about the cards, discuss actions to deal with problem and integrate what was learned
+- Question based approach
+  - What went well; What needs improvement; Ideas; Actions
+  - What did you like in the sprint? What's still puzzling you? What didn't work well? What are your improvement ideas?
+  - Start; Stop; Continue
+    - More on each see: https://www.outsystems.com/blog/posts/sprint-retrospective/ 
+  - In person: Sticky notes to put on whiteboard
+  - Remote: 
+    - Each member writes cards in private (with name)
+    - When presenting each member adds Cards in MS Planner in the List of the question.
+      - Alternatively in OneNote in Grid: Appreciations :), Puzzles ?, Risks (Bomb), Whishes (Star)
+  - Vote
+  - Talk about cards and discuss actions
+
+#### Phasen
+1. Recap, worum es geht: das WIE? /  Der Prozess
+2. Sammeln von Daten. Fragen: 
+  - Was gut/nicht gut in letzten Sprint
+  - Was können wir besser machen
+  - Wie zufrieden mit Ergebnissen des letzten Sprints
+  - Sprint ziele erreicht? Warum?
+3. Im Team Clustern und Priorisieren
+4. Ursachen finden (Warum existiert Problem/Erfolg/Symptom).
+5. Maßnahmen beschließen
+   - Am besten sind diese Ziele [SMART](https://kommunalwiki.boell.de/index.php/SMART-Ziele)
+  
 ## Scrum Artifacts
 ### Product Backlog (Product Goal)
 - Long-term objective for the Scrum Team
@@ -178,7 +237,8 @@ Five values Scrum depends on: Commitment, Focus, Openness, Respect, Courage. Tea
 - Formal description of state of an Increment, when it meets the quality measures required for the product
   - If a Backlog Item meets the Definition of Done, it is an Increment
 - Requirement for release and presentation at Sprint Review
-  
+- TODO: einfügren
+
 ### Sources
 - https://scrumguides.org
 - https://www.youtube.com/watch?v=eGWre4YpUFQ and https://agiledigest.com/agile-digest-tutorial-2/preparing-working-scrum-board-sprint-board-n/ 
